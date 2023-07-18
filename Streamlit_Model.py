@@ -95,11 +95,7 @@ def pred(age, job, marital, education_qual, call_type, day, mon, dur, num_calls,
     print(prediction)
 
     return abs(prediction)
-    # df=pd.DataFrame([[age, job, marital, education_qual, call_type, day, mon, dur, num_calls, prev_outcome]])
-    # prediction = model.predict(pd.DataFrame([[age, job, marital, education_qual, call_type, day, mon, dur, num_calls, prev_outcome]],
-    #                                         columns=['age','job','marital','education_qual','call_type','day','mon','dur','num_calls','prev_outcome']))
-    # return prediction
-
+   
 st.title('Customer Conversion Predictor')
 # st.image()
 st.header('Enter the characteristics of the Potential Customer:')
